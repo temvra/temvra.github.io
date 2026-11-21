@@ -3,83 +3,253 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Temvra · Tu tiempo, en bloques</title>
-<meta name="description" content="Temporizadores, agenda, bloques de trabajo y notas en una sola app. Sin cuentas, sin anuncios y con tus datos en tu móvil.">
+<title>Temvra: tu tiempo, en bloques</title>
+<meta name="description" content="Temporizadores, agenda, bloques de trabajo, Enfoque y notas en una sola app. Sin cuentas, sin anuncios y con tus datos en tu móvil.">
 <link rel="canonical" href="https://temvra.github.io/">
-<meta name="theme-color" content="#07070d">
+<meta name="theme-color" content="#09080f">
 <link rel="icon" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta property="og:title" content="Temvra · Tu tiempo, en bloques">
-<meta property="og:description" content="Temporizadores, agenda, bloques de trabajo y notas en una sola app.">
-<meta property="og:image" content="https://temvra.github.io/icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Temvra: tu tiempo, en bloques">
+<meta property="og:description" content="Temporizadores, agenda, bloques de trabajo, Enfoque y notas en una sola app.">
+<meta property="og:image" content="https://temvra.github.io/img/temvra-1024x500.png">
+<link rel="preload" href="fonts/roboto.woff" as="font" type="font/woff" crossorigin>
 <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="inicio">
 <header class="wrap top">
   <a class="brand" href="./"><img src="icon.png" alt="" width="34" height="34">Temvra</a>
-  <nav aria-label="Principal"><a class="opt" href="#funciones">Funciones</a><a href="soporte.html">Soporte</a><a href="privacidad.html">Privacidad</a></nav>
+  <nav aria-label="Principal"><a class="opt" href="#funciones">Funciones</a><a class="opt" href="#preguntas">Preguntas</a><a href="soporte.html">Soporte</a></nav>
+  <a class="btn pri peq" href="#probar">Quiero probarla</a>
 </header>
 
 <main>
-  <div class="wrap hero">
-    <div>
-      <span class="eyebrow"><i></i>Muy pronto en Google Play</span>
-      <h1>Tu tiempo,<br><span>en bloques.</span></h1>
+  <section class="hero">
+    <div class="wrap centro">
+      <span class="seda seda-hero" aria-hidden="true"></span>
+      <p class="chip"><i></i>Muy pronto en Google Play</p>
+      <h1>Tu tiempo,<br>en bloques.</h1>
       <p class="lead">Temporizadores, agenda, bloques de trabajo y notas en una sola app. Sin cuentas, sin anuncios y con tus datos en tu móvil.</p>
-      <div class="ctas">
-        <a class="btn pri" href="#funciones"><span class="stack"><small>Descubre</small>Qué puedes hacer</span></a>
-        <a class="btn" href="soporte.html">Escríbenos</a>
-      </div>
+      <div class="ctas"><a class="btn pri" href="#probar">Quiero probarla</a><a class="btn" href="#funciones">Ver funciones</a></div>
+      <p class="estado"><i></i>Gratis y en 10 idiomas</p>
     </div>
-    <div>
-      <div class="orb"><img src="icon.png" alt="Icono de Temvra: un reloj de arena dentro de una esfera de cristal" width="340" height="340"></div>
-      <div class="laser" aria-hidden="true"></div>
-    </div>
-  </div>
 
-  <section id="funciones">
-    <div class="wrap">
-      <h2>Todo tu día en un solo sitio</h2>
-      <p class="sub">Temvra junta lo que normalmente tienes repartido en cinco apps, con un diseño de cristal que se mueve con suavidad.</p>
-      <div class="grid g3">
-        <article class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M6 3h12M6 21h12M7 3c0 5 10 5 10 9s-10 4-10 9M17 3c0 5-10 5-10 9"/></svg></div>
-          <h3>Temporizadores y circuitos</h3><p>Cuentas atrás en bucle, cronómetro, alarmas y circuitos de ejercicio con avisos por voz. Las alarmas suenan aunque tengas la pantalla apagada.</p></article>
-        <article class="card"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></div>
-          <h3>Agenda con el rayo de la hora</h3><p>Día, semana, mes, año y programación. Una línea de luz marca el momento exacto en el que estás.</p></article>
-        <article class="card"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="5" rx="2"/><rect x="13" y="10" width="8" height="11" rx="2"/><rect x="3" y="13" width="8" height="8" rx="2"/></svg></div>
-          <h3>Bloques de trabajo</h3><p>Reparte tu jornada en bloques de colores y mira de un vistazo cuánto tiempo dedicas a cada cosa.</p></article>
-        <article class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M5 3h10l4 4v14H5z"/><path d="M15 3v4h4M8 12h8M8 16h5"/></svg></div>
-          <h3>Notas enlazadas</h3><p>Notas en Markdown con enlaces entre ellas, carpetas, imágenes y lienzos, al estilo de Obsidian.</p></article>
-        <article class="card"><div class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M8 10h8M8 14h5"/><circle cx="16.5" cy="14" r="1"/></svg></div>
-          <h3>Widgets</h3><p>«Ahora» te enseña la hora con segundos y cuánto falta para tus próximos eventos, sin abrir la app.</p></article>
-        <article class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M21 3l-9 9M15 3h6v6"/></svg></div>
-          <h3>Tus dispositivos, sincronizados</h3><p>Si quieres, conecta tu propio repositorio de GitHub y tus notas, tu agenda y tus tiempos te siguen a cualquier dispositivo.</p></article>
+    <div class="wrap escaparate">
+      <div class="vista" data-i="0" style="--ry:.5344;--ry-m:.3694">
+        <span class="rayo" aria-hidden="true"></span>
+        <div class="ventana">
+          <div class="barra" aria-hidden="true"><i></i><i></i><i></i><span>Temvra</span></div>
+          <div class="pantallas" id="pantallas">
+            <picture class="on"><source media="(max-width:719px)" srcset="img/semana-movil.webp" width="412" height="892"><img src="img/pc-semana.webp" width="1600" height="800" alt="La semana en Temvra: bloques de trabajo de lunes a viernes, el proyecto por la tarde y el rayo de la hora a las 11:20."></picture>
+            <picture><source media="(max-width:719px)" srcset="img/mes.webp" width="412" height="892"><img src="img/pc-mes.webp" width="1600" height="800" loading="lazy" alt="El mes de noviembre con los eventos de cada día y los festivos."></picture>
+            <picture><source media="(max-width:719px)" srcset="img/enfoque.webp" width="412" height="892"><img src="img/pc-enfoque.webp" width="1600" height="800" loading="lazy" alt="Estadísticas de Enfoque: sesiones del mes, progreso de la semana y la mejor hora."></picture>
+            <picture><source media="(max-width:719px)" srcset="img/notas.webp" width="412" height="892"><img src="img/pc-notas.webp" width="1600" height="800" loading="lazy" alt="Una nota de Temvra con su lista, sus etiquetas y las notas que enlazan con ella."></picture>
+          </div>
+        </div>
+      </div>
+      <div class="pestanas" role="tablist" aria-label="Pantallas de Temvra">
+        <button type="button" role="tab" aria-controls="pantallas" aria-selected="true">Semana</button>
+        <button type="button" role="tab" aria-controls="pantallas" aria-selected="false" tabindex="-1">Mes</button>
+        <button type="button" role="tab" aria-controls="pantallas" aria-selected="false" tabindex="-1">Enfoque</button>
+        <button type="button" role="tab" aria-controls="pantallas" aria-selected="false" tabindex="-1">Notas</button>
       </div>
     </div>
   </section>
 
-  <section>
+  <section id="funciones" class="pilares">
     <div class="wrap">
-      <div class="band">
-        <h2>Tus datos son tuyos</h2>
-        <p class="sub" style="margin-bottom:0">Temvra no tiene servidores que guarden lo que escribes. Todo se queda en tu dispositivo, salvo que tú decidas sincronizarlo con tu propio GitHub.</p>
-        <ul class="ticks">
-          <li>Sin cuentas ni registro</li>
-          <li>Sin anuncios</li>
-          <li>Sin estadísticas ni rastreo</li>
-          <li>Funciona sin conexión</li>
-        </ul>
-        <p style="margin-top:20px"><a href="privacidad.html">Lee la política de privacidad</a></p>
+      <h2>Planifica, concéntrate, apunta</h2>
+      <p class="sub">Lo que haces cada día, en la misma app y con el mismo diseño.</p>
+      <div class="trio">
+        <article class="pilar" style="--g1:#b3a7ff;--g2:#5b4df0">
+          <div class="pantalla"><img src="img/dia.webp" width="412" height="892" loading="lazy" alt="El día de hoy en Temvra: un bloque de trabajo de 9:00 a 13:00, la comida con Laura y el proyecto de la tarde."><p class="aviso">Hoy: 3 bloques y 2 eventos</p></div>
+          <h3>Planifica</h3>
+          <p>Agenda de día, semana, mes y año, con bloques de trabajo y el rayo de la hora.</p>
+        </article>
+        <article class="pilar" style="--g1:#ffab9a;--g2:#ef4b67">
+          <div class="pantalla"><img src="img/enfoque.webp" width="412" height="892" loading="lazy" alt="Estadísticas de Enfoque: 21 sesiones este mes, la mejor hora, la duración media y la racha."><p class="aviso">Racha de 2 días</p></div>
+          <h3>Concéntrate</h3>
+          <p>Sesiones de Enfoque con cuenta atrás, avisos al empezar y al terminar, y tus estadísticas.</p>
+        </article>
+        <article class="pilar" style="--g1:#7fdbe6;--g2:#4f7dff">
+          <div class="pantalla"><img src="img/notas.webp" width="412" height="892" loading="lazy" alt="Una nota de Temvra con una lista, etiquetas y las notas que enlazan con ella."><p class="aviso">2 notas enlazan aquí</p></div>
+          <h3>Apunta</h3>
+          <p>Notas en Markdown enlazadas entre sí, que puedes guardar como archivos .md compatibles con Obsidian.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="detalles">
+    <div class="wrap">
+      <h2>Hecha para el día a día</h2>
+      <p class="sub">Los detalles que te ahorran abrir otras cinco apps.</p>
+      <div class="bento">
+        <article class="celda ancha">
+          <div class="demo dia-vivo" aria-hidden="true">
+            <ol class="horas"><li>10:00</li><li>11:00</li><li>12:00</li><li>13:00</li></ol>
+            <div class="bl bl1"><b>Proyecto</b><span>2 h</span></div>
+            <div class="bl bl2"><b>Gimnasio</b><span>1 h</span></div>
+            <div class="ahora"><span class="hora-ahora">11:20</span></div>
+          </div>
+          <div class="pie-celda">
+            <h3>El rayo de la hora</h3>
+            <p>Una línea de luz marca el momento exacto en el que estás. Aquí, ahora, son las <b class="hora-ahora">11:20</b>.</p>
+          </div>
+        </article>
+        <article class="celda">
+          <div class="demo widget" aria-hidden="true">
+            <p class="reloj"><b class="w-hora">11:20</b><small class="w-seg">38</small></p>
+            <p class="w-fecha">Lun, 16 nov</p>
+            <p class="w-prox"><span>Cena con Marta</span><b class="w-cuenta">1:39:22</b></p>
+          </div>
+          <div class="pie-celda">
+            <h3>Widget «Ahora»</h3>
+            <p>La hora con segundos y la cuenta atrás de tus próximos eventos, en la pantalla de inicio.</p>
+          </div>
+        </article>
+        <article class="celda">
+          <div class="demo circuito" aria-hidden="true">
+            <div class="aro"><b class="c-seg">0:45</b><small>Sentadillas</small></div>
+            <p class="c-sig">Después: descanso de 15 s</p>
+          </div>
+          <div class="pie-celda">
+            <h3>Circuitos con voz</h3>
+            <p>Intervalos de ejercicio con avisos por voz, para entrenar sin mirar el móvil.</p>
+          </div>
+        </article>
+        <article class="celda">
+          <div class="demo barras" aria-hidden="true">
+            <p class="b-tit">Esta semana</p>
+            <ul>
+              <li style="--c:#5b8def;--v:100%"><span>Trabajo</span><b>20 h</b></li>
+              <li style="--c:#8b7cff;--v:30%"><span>Proyecto Temvra</span><b>6 h</b></li>
+              <li style="--c:#f29d38;--v:20%"><span>Deporte</span><b>4 h</b></li>
+              <li style="--c:#2bb3a3;--v:10%"><span>Estudio</span><b>2 h</b></li>
+            </ul>
+          </div>
+          <div class="pie-celda">
+            <h3>Bloques de trabajo</h3>
+            <p>Reparte la jornada en bloques y mira cuánto dedicas a cada cosa.</p>
+          </div>
+        </article>
+        <article class="celda">
+          <div class="demo festivos" aria-hidden="true">
+            <p class="f-mes">Diciembre</p>
+            <ol class="f-dias"><li class="f-cab">L</li><li class="f-cab">M</li><li class="f-cab">X</li><li class="f-cab">J</li><li class="f-cab">V</li><li class="f-cab">S</li><li class="f-cab">D</li><li></li><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li class="fest" title="Día de la Constitución">6</li><li>7</li><li class="fest" title="Inmaculada Concepción">8</li><li>9</li><li>10</li><li>11</li><li>12</li><li>13</li><li>14</li><li>15</li><li>16</li><li>17</li><li>18</li><li>19</li><li>20</li><li>21</li><li>22</li><li>23</li><li>24</li><li class="fest" title="Navidad">25</li><li>26</li><li>27</li><li>28</li><li>29</li><li>30</li><li>31</li></ol>
+            <p class="f-ics">+ Calendario .ics</p>
+          </div>
+          <div class="pie-celda">
+            <h3>Festivos y calendarios</h3>
+            <p>Los festivos de tu país y los calendarios a los que te suscribas.</p>
+          </div>
+        </article>
+        <article class="celda ancha sync-celda">
+          <div class="demo sync" aria-hidden="true">
+            <span class="disp"><svg viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 18.5h3"/></svg>Móvil</span>
+            <span class="cable"></span>
+            <span class="disp repo"><svg viewBox="0 0 24 24"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19v-3"/></svg>Tu repositorio de GitHub</span>
+            <span class="cable"></span>
+            <span class="disp"><svg viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="16" rx="2.5"/><path d="M11 17h2"/></svg>Tableta</span>
+          </div>
+          <div class="pie-celda">
+            <h3>Contigo en todos tus dispositivos</h3>
+            <p>Funciona siempre sin conexión. Y si quieres, sincroniza notas, agenda y tiempos con tu propio repositorio de GitHub.</p>
+          </div>
+        </article>
+        <article class="celda gusto">
+          <div class="demo gusto-demo" aria-hidden="false">
+            <div class="g-dia" aria-hidden="true"><span class="g-h">11:00</span><div class="g-bl"><b>Trabajo</b><span>09:00–13:00</span></div><span class="g-h g-h2">12:00</span><div class="g-rayo"></div></div>
+            <div class="g-colores" role="group" aria-label="Color del rayo">
+              <button type="button" aria-pressed="true" aria-label="Rojo" style="--s:#ff4d6a"></button>
+              <button type="button" aria-pressed="false" aria-label="Violeta" style="--s:#8b7cff"></button>
+              <button type="button" aria-pressed="false" aria-label="Turquesa" style="--s:#2db4c8"></button>
+              <button type="button" aria-pressed="false" aria-label="Ámbar" style="--s:#f2b33d"></button>
+              <button type="button" aria-pressed="false" aria-label="Verde" style="--s:#3ddc84"></button>
+            </div>
+          </div>
+          <div class="pie-celda">
+            <h3>A tu gusto</h3>
+            <p>Modo claro y oscuro, el color de la app y el del rayo. Prueba a cambiarlo aquí.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="privacidad">
+    <div class="wrap">
+      <div class="panel datos">
+        <div class="panel-txt">
+          <h2>Tus datos son tuyos</h2>
+          <p>Temvra no tiene servidores que guarden lo que escribes. Todo se queda en tu dispositivo, salvo que tú decidas sincronizarlo con tu propio repositorio de GitHub.</p>
+          <p class="ok"><i></i>Sin cuentas, sin anuncios y sin rastreo</p>
+          <p class="enlaces"><a href="privacidad.html">Política de privacidad</a><a href="borrar-datos.html">Cómo borrar tus datos</a></p>
+        </div>
+        <div class="cinta" aria-hidden="true">
+          <div class="fila"><span>Sin cuentas</span><span>Sin anuncios</span><span>Sin rastreo</span><span>Funciona sin conexión</span><span>Tu propio GitHub</span><span class="d">Sin cuentas</span><span class="d">Sin anuncios</span><span class="d">Sin rastreo</span><span class="d">Funciona sin conexión</span><span class="d">Tu propio GitHub</span></div>
+          <div class="fila inv"><span>Archivos .md</span><span>Calendarios .ics</span><span>Copias donde tú quieras</span><span>10 idiomas</span><span class="d">Archivos .md</span><span class="d">Calendarios .ics</span><span class="d">Copias donde tú quieras</span><span class="d">10 idiomas</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kelestra" class="autor-sec">
+    <div class="wrap">
+      <div class="panel autor">
+        <div class="ficha" aria-hidden="true"><img src="icon.png" alt="" width="88" height="88"><b>Temvra</b><span>de Kelestra</span></div>
+        <div class="autor-txt">
+          <h2>Detrás de Temvra</h2>
+          <p>Temvra la hace Kelestra, un estudio pequeño de España. Sin cuentas que crear, sin anuncios y sin servidores que guarden lo que escribes.</p>
+          <dl class="cifras"><div><dt>Precio</dt><dd>Gratis</dd></div><div><dt>Idiomas</dt><dd>10</dd></div><div><dt>Anuncios</dt><dd>Ninguno</dd></div></dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="preguntas" class="faq">
+    <div class="wrap faq-in">
+      <div>
+        <h2>Preguntas frecuentes</h2>
+        <p class="sub">¿Algo más? Escríbenos a <a href="mailto:hola@temvra.es">hola@temvra.es</a>.</p>
+      </div>
+      <div class="lista">
+        <details><summary>¿Cuánto cuesta?</summary><p>Nada. Temvra es gratis y no tiene anuncios.</p></details>
+        <details><summary>¿Necesito crear una cuenta?</summary><p>No. Temvra funciona sin cuentas y sin conexión. Todo se guarda en tu dispositivo.</p></details>
+        <details><summary>¿Cómo paso mis datos a otro móvil?</summary><p>Puedes exportar una copia de seguridad desde Ajustes e importarla en el otro móvil, o vincular tu propio repositorio de GitHub para que tus notas, tu agenda y tus tiempos se sincronicen solos.</p></details>
+        <details><summary>¿Necesita internet?</summary><p>No. Solo se conecta para lo que actives tú, como sincronizar con tu GitHub o consultar los días festivos.</p></details>
+        <details><summary>¿En qué dispositivos funciona?</summary><p>En móviles y tablets Android y en Chromebooks, desde Google Play.</p></details>
+        <details><summary>¿Cómo puedo probarla ya?</summary><p>Escríbenos a <a href="mailto:hola@temvra.es?subject=Quiero%20probar%20Temvra">hola@temvra.es</a> desde tu cuenta de Google y te invitamos a la prueba de Google Play.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section id="probar" class="final">
+    <div class="wrap">
+      <div class="franja">
+        <span class="seda" aria-hidden="true"></span>
+        <p class="etiqueta">Muy pronto en Google Play</p>
+        <h2>Pruébala antes que nadie.</h2>
+        <p class="franja-txt">Temvra está en prueba antes de salir para todo el mundo. Escríbenos desde tu cuenta de Google y te mandamos la invitación.</p>
+        <div class="ctas"><a class="btn pri" href="mailto:hola@temvra.es?subject=Quiero%20probar%20Temvra">Quiero probarla</a><a class="btn" href="soporte.html">Soporte</a></div>
+        <ul class="hechos"><li>Gratis</li><li>Sin cuentas ni anuncios</li><li>10 idiomas</li></ul>
       </div>
     </div>
   </section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <span>Temvra es una app de <a href="https://kelestra-studio.github.io/">Kelestra</a></span>
-    <nav aria-label="Pie"><a href="soporte.html">Soporte</a><a href="privacidad.html">Privacidad</a></nav>
+<footer class="pie">
+  <div class="wrap pie-in">
+    <div class="pie-marca">
+      <a class="brand" href="./"><img src="icon.png" alt="" width="32" height="32">Temvra</a>
+      <p>Temporizadores, agenda, bloques de trabajo y notas en una sola app. Una app de <a href="https://kelestra-studio.github.io/">Kelestra</a>.</p>
+    </div>
+    <nav aria-label="Temvra"><h2>Temvra</h2><a href="./#funciones">Funciones</a><a href="./#preguntas">Preguntas</a><a href="./#probar">Pruébala</a></nav>
+    <nav aria-label="Ayuda"><h2>Ayuda</h2><a href="soporte.html">Soporte</a><a href="borrar-datos.html">Cómo borrar tus datos</a><a href="mailto:hola@temvra.es">hola@temvra.es</a></nav>
+    <nav aria-label="Más"><h2>Más</h2><a href="privacidad.html">Privacidad</a><a href="https://github.com/temvra">GitHub</a><a href="https://kelestra-studio.github.io/">Kelestra</a></nav>
   </div>
+  <div class="wrap pie-bajo"><span>© 2026 Kelestra</span><span>Hecha en España</span></div>
 </footer>
+<script src="inicio.js" defer></script>
 </body>
 </html>
